@@ -99,4 +99,10 @@ ul li a{
     text-align: center;
 }  
 /* ***Advertise^^ */
-.adverise
+.adverise_banner{
+    display: flex;   
+    justify-content: center;
+    border: 1px solid gray; 
+    height: 80px;
+    align-items: center;
+}
