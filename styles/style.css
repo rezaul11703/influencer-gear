@@ -106,3 +106,56 @@ ul li a{
     height: 80px;
     align-items: center;
 }
+/* ***Advertise^^ */
+/* Main Section Part Started */
+            /* Title Part */
+.section-title{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+.Collections{
+    background-color: #AAAAAA;
+}
+.Product{
+    padding: 17px 14px;
+    background-color: white;
+}
+.product-image img{
+    width: 300px;
+    height: 256px;
+}
+.product-name{
+    font-weight: 500;
+    font-size: 28px;
+    color:#18191F;
+}
+.product-price{
+    font-weight: 400;
+    font-size: 24px;
+    width: 82px;
+    height: 36px;
+    text-align: center;
+}
+.product-rating .fa-star{
+    font-weight: 700px;
+    font-size: 14px;
+}
+.product-rating span{
+    font-weight: 700px;
+    font-size: 14px;
+}
+.product-rating .filled{
+   color:yellow;
+}
+.product-rating .empty{
+    color: wheat;
+}
+.product-description{
+    height: 61px;
+    width: 196px;
+}
+.product-description span{
+    font-size: 14px;
+    font-weight: 700;
+}
