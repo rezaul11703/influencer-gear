@@ -54,8 +54,7 @@ ul li a{
     height: 586px;
     align-items: center;
 }
-
-   
+  
 .heading-details h2{
     font-weight: 700;
     font-size: 52px;
@@ -99,10 +98,10 @@ ul li a{
     border: none;
  }
  /* ******************* */
- /* .heading-details{
+ .heading-details{
      position: relative;
  }
- .heading-details button::before{
+ /* .heading-details button::before{
      content: 'Explore here';
      position: absolute;
     top:o;
@@ -116,7 +115,8 @@ ul li a{
     color: white;
     font-size: 16px;
     font-weight: bold;
-    border: none; */
+    border: none; 
+}
     
     /* animation: typing 3s linear infinite;
  } */
@@ -150,8 +150,6 @@ ul li a{
     grid-row-gap: 30px;
     margin-top: 30px;
     background-color: #aaaaaa2f;
-    grid-auto-flow: column;
-
 }
 .Product{
     background-color: white;
@@ -248,7 +246,7 @@ footer{
         max-width: fit-content;
     }
     .collections{
-      grid-template-column: repeat(1,1fr);
+      grid-template-columns: repeat(1,1fr);
       height: fit-content;
     }
     .extenstion{
